@@ -38,7 +38,7 @@ steps:
       command: 'push'
       artifactoryConnection: 'testing'
       targetDeployRepo: 'october-nuget-local'
-      pathToNupkg: '*.nupkg'
+      pathToNupkg: '/home/reddappag/myagent/_work/4/a/'
       collectBuildInfo: true
       buildName: '$(Build.DefinitionName)'
       buildNumber: '$(Build.BuildNumber)'
